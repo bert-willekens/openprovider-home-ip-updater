@@ -190,7 +190,7 @@ class OpenProviderDNSUpdater {
 
         // Update existing record
         const updateExistingRecordData = {
-            id: record?.id,
+            id: zoneId,
             name: domain,
             records: {
                 update: [
